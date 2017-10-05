@@ -1,0 +1,29 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "timestamp service accepts a UNIX time stamp or a natural language date and returns an object containing both the Unix and natural language values ",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoonable/Timestamp-Microservice.git"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "binh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoonable/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/spoonable/Timestamp-Microservice#readme",
+  "private": true,
+  "dependencies": {
+  	"express": "4.x"
+  }
+}

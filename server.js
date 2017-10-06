@@ -4,7 +4,7 @@ var strftime = require('strftime');
 var path = require('path');
 var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
-var port = 8080;
+var port = 3000;
 var dateObj = {'unix': undefined, "natural": undefined};
 //load static index page
 app.get('/', (req,res)=>{
@@ -28,6 +28,6 @@ app.get('/[a-zA-Z0-9_ ]*', (req,res)=>{
 	dateObj.natural = "undefined";
 	res.end(JSON.stringify(dateObj));
 })
-app.listen(8080, ()=>{
+app.listen(port, ()=>{
 	console.log('app listening to port ' + port.toString() + '.');
 });

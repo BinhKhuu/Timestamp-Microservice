@@ -26,6 +26,6 @@
   "dependencies": {
     "express": "4.x",
     "nodemon": "^1.12.1",
-    "strftime": "0.10.x"
+    "strftime": "0.10.0"
   }
 }

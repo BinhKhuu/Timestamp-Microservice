@@ -4,7 +4,7 @@ var strftime = require('strftime');
 var path = require('path');
 var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
-var port = 3000;
+var port = Number(process.env.PORT || 3000);
 var dateObj = {'unix': undefined, "natural": undefined};
 //load static index page
 app.get('/', (req,res)=>{
